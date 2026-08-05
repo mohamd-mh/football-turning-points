@@ -1,0 +1,901 @@
+League,Season,HalfTimeState,FullTimeState,TransitionClass,TeamMatchRows,HalfTimeStateTotal,TransitionRatePct,MatrixLabel
+English Premier League,2015/16,Ahead,Draw,Lead Slip,36,212,16.98,"Lead Slip
+16.98%"
+English Premier League,2015/16,Ahead,Loss,Lead Collapse,17,212,8.02,"Lead Collapse
+8.02%"
+English Premier League,2015/16,Ahead,Win,Protected Lead,159,212,75.0,"Protected Lead
+75.0%"
+English Premier League,2015/16,Behind,Draw,Recovery Draw,36,212,16.98,"Recovery Draw
+16.98%"
+English Premier League,2015/16,Behind,Loss,No Recovery,159,212,75.0,"No Recovery
+75.0%"
+English Premier League,2015/16,Behind,Win,Comeback Win,17,212,8.02,"Comeback Win
+8.02%"
+English Premier League,2015/16,Level,Draw,Stable Draw,142,336,42.26,"Stable Draw
+42.26%"
+English Premier League,2015/16,Level,Loss,Draw Lost,97,336,28.87,"Draw Lost
+28.87%"
+English Premier League,2015/16,Level,Win,Draw Breakthrough,97,336,28.87,"Draw Breakthrough
+28.87%"
+English Premier League,2016/17,Ahead,Draw,Lead Slip,34,227,14.98,"Lead Slip
+14.98%"
+English Premier League,2016/17,Ahead,Loss,Lead Collapse,12,227,5.29,"Lead Collapse
+5.29%"
+English Premier League,2016/17,Ahead,Win,Protected Lead,181,227,79.74,"Protected Lead
+79.74%"
+English Premier League,2016/17,Behind,Draw,Recovery Draw,34,227,14.98,"Recovery Draw
+14.98%"
+English Premier League,2016/17,Behind,Loss,No Recovery,181,227,79.74,"No Recovery
+79.74%"
+English Premier League,2016/17,Behind,Win,Comeback Win,12,227,5.29,"Comeback Win
+5.29%"
+English Premier League,2016/17,Level,Draw,Stable Draw,100,306,32.68,"Stable Draw
+32.68%"
+English Premier League,2016/17,Level,Loss,Draw Lost,103,306,33.66,"Draw Lost
+33.66%"
+English Premier League,2016/17,Level,Win,Draw Breakthrough,103,306,33.66,"Draw Breakthrough
+33.66%"
+English Premier League,2017/18,Ahead,Draw,Lead Slip,32,218,14.68,"Lead Slip
+14.68%"
+English Premier League,2017/18,Ahead,Loss,Lead Collapse,18,218,8.26,"Lead Collapse
+8.26%"
+English Premier League,2017/18,Ahead,Win,Protected Lead,168,218,77.06,"Protected Lead
+77.06%"
+English Premier League,2017/18,Behind,Draw,Recovery Draw,32,218,14.68,"Recovery Draw
+14.68%"
+English Premier League,2017/18,Behind,Loss,No Recovery,168,218,77.06,"No Recovery
+77.06%"
+English Premier League,2017/18,Behind,Win,Comeback Win,18,218,8.26,"Comeback Win
+8.26%"
+English Premier League,2017/18,Level,Draw,Stable Draw,134,324,41.36,"Stable Draw
+41.36%"
+English Premier League,2017/18,Level,Loss,Draw Lost,95,324,29.32,"Draw Lost
+29.32%"
+English Premier League,2017/18,Level,Win,Draw Breakthrough,95,324,29.32,"Draw Breakthrough
+29.32%"
+English Premier League,2018/19,Ahead,Draw,Lead Slip,29,232,12.5,"Lead Slip
+12.5%"
+English Premier League,2018/19,Ahead,Loss,Lead Collapse,17,232,7.33,"Lead Collapse
+7.33%"
+English Premier League,2018/19,Ahead,Win,Protected Lead,186,232,80.17,"Protected Lead
+80.17%"
+English Premier League,2018/19,Behind,Draw,Recovery Draw,29,232,12.5,"Recovery Draw
+12.5%"
+English Premier League,2018/19,Behind,Loss,No Recovery,186,232,80.17,"No Recovery
+80.17%"
+English Premier League,2018/19,Behind,Win,Comeback Win,17,232,7.33,"Comeback Win
+7.33%"
+English Premier League,2018/19,Level,Draw,Stable Draw,84,296,28.38,"Stable Draw
+28.38%"
+English Premier League,2018/19,Level,Loss,Draw Lost,106,296,35.81,"Draw Lost
+35.81%"
+English Premier League,2018/19,Level,Win,Draw Breakthrough,106,296,35.81,"Draw Breakthrough
+35.81%"
+English Premier League,2019/20,Ahead,Draw,Lead Slip,42,240,17.5,"Lead Slip
+17.5%"
+English Premier League,2019/20,Ahead,Loss,Lead Collapse,22,240,9.17,"Lead Collapse
+9.17%"
+English Premier League,2019/20,Ahead,Win,Protected Lead,176,240,73.33,"Protected Lead
+73.33%"
+English Premier League,2019/20,Behind,Draw,Recovery Draw,42,240,17.5,"Recovery Draw
+17.5%"
+English Premier League,2019/20,Behind,Loss,No Recovery,176,240,73.33,"No Recovery
+73.33%"
+English Premier League,2019/20,Behind,Win,Comeback Win,22,240,9.17,"Comeback Win
+9.17%"
+English Premier League,2019/20,Level,Draw,Stable Draw,100,280,35.71,"Stable Draw
+35.71%"
+English Premier League,2019/20,Level,Loss,Draw Lost,90,280,32.14,"Draw Lost
+32.14%"
+English Premier League,2019/20,Level,Win,Draw Breakthrough,90,280,32.14,"Draw Breakthrough
+32.14%"
+English Premier League,2020/21,Ahead,Draw,Lead Slip,30,227,13.22,"Lead Slip
+13.22%"
+English Premier League,2020/21,Ahead,Loss,Lead Collapse,18,227,7.93,"Lead Collapse
+7.93%"
+English Premier League,2020/21,Ahead,Win,Protected Lead,179,227,78.85,"Protected Lead
+78.85%"
+English Premier League,2020/21,Behind,Draw,Recovery Draw,30,227,13.22,"Recovery Draw
+13.22%"
+English Premier League,2020/21,Behind,Loss,No Recovery,179,227,78.85,"No Recovery
+78.85%"
+English Premier League,2020/21,Behind,Win,Comeback Win,18,227,7.93,"Comeback Win
+7.93%"
+English Premier League,2020/21,Level,Draw,Stable Draw,106,306,34.64,"Stable Draw
+34.64%"
+English Premier League,2020/21,Level,Loss,Draw Lost,100,306,32.68,"Draw Lost
+32.68%"
+English Premier League,2020/21,Level,Win,Draw Breakthrough,100,306,32.68,"Draw Breakthrough
+32.68%"
+English Premier League,2021/22,Ahead,Draw,Lead Slip,37,229,16.16,"Lead Slip
+16.16%"
+English Premier League,2021/22,Ahead,Loss,Lead Collapse,18,229,7.86,"Lead Collapse
+7.86%"
+English Premier League,2021/22,Ahead,Win,Protected Lead,174,229,75.98,"Protected Lead
+75.98%"
+English Premier League,2021/22,Behind,Draw,Recovery Draw,37,229,16.16,"Recovery Draw
+16.16%"
+English Premier League,2021/22,Behind,Loss,No Recovery,174,229,75.98,"No Recovery
+75.98%"
+English Premier League,2021/22,Behind,Win,Comeback Win,18,229,7.86,"Comeback Win
+7.86%"
+English Premier League,2021/22,Level,Draw,Stable Draw,102,302,33.77,"Stable Draw
+33.77%"
+English Premier League,2021/22,Level,Loss,Draw Lost,100,302,33.11,"Draw Lost
+33.11%"
+English Premier League,2021/22,Level,Win,Draw Breakthrough,100,302,33.11,"Draw Breakthrough
+33.11%"
+English Premier League,2022/23,Ahead,Draw,Lead Slip,36,234,15.38,"Lead Slip
+15.38%"
+English Premier League,2022/23,Ahead,Loss,Lead Collapse,20,234,8.55,"Lead Collapse
+8.55%"
+English Premier League,2022/23,Ahead,Win,Protected Lead,178,234,76.07,"Protected Lead
+76.07%"
+English Premier League,2022/23,Behind,Draw,Recovery Draw,36,234,15.38,"Recovery Draw
+15.38%"
+English Premier League,2022/23,Behind,Loss,No Recovery,178,234,76.07,"No Recovery
+76.07%"
+English Premier League,2022/23,Behind,Win,Comeback Win,20,234,8.55,"Comeback Win
+8.55%"
+English Premier League,2022/23,Level,Draw,Stable Draw,102,292,34.93,"Stable Draw
+34.93%"
+English Premier League,2022/23,Level,Loss,Draw Lost,95,292,32.53,"Draw Lost
+32.53%"
+English Premier League,2022/23,Level,Win,Draw Breakthrough,95,292,32.53,"Draw Breakthrough
+32.53%"
+English Premier League,2023/24,Ahead,Draw,Lead Slip,39,227,17.18,"Lead Slip
+17.18%"
+English Premier League,2023/24,Ahead,Loss,Lead Collapse,24,227,10.57,"Lead Collapse
+10.57%"
+English Premier League,2023/24,Ahead,Win,Protected Lead,164,227,72.25,"Protected Lead
+72.25%"
+English Premier League,2023/24,Behind,Draw,Recovery Draw,39,227,17.18,"Recovery Draw
+17.18%"
+English Premier League,2023/24,Behind,Loss,No Recovery,164,227,72.25,"No Recovery
+72.25%"
+English Premier League,2023/24,Behind,Win,Comeback Win,24,227,10.57,"Comeback Win
+10.57%"
+English Premier League,2023/24,Level,Draw,Stable Draw,86,306,28.1,"Stable Draw
+28.1%"
+English Premier League,2023/24,Level,Loss,Draw Lost,110,306,35.95,"Draw Lost
+35.95%"
+English Premier League,2023/24,Level,Win,Draw Breakthrough,110,306,35.95,"Draw Breakthrough
+35.95%"
+English Premier League,2024/25,Ahead,Draw,Lead Slip,48,245,19.59,"Lead Slip
+19.59%"
+English Premier League,2024/25,Ahead,Loss,Lead Collapse,29,245,11.84,"Lead Collapse
+11.84%"
+English Premier League,2024/25,Ahead,Win,Protected Lead,168,245,68.57,"Protected Lead
+68.57%"
+English Premier League,2024/25,Behind,Draw,Recovery Draw,48,245,19.59,"Recovery Draw
+19.59%"
+English Premier League,2024/25,Behind,Loss,No Recovery,168,245,68.57,"No Recovery
+68.57%"
+English Premier League,2024/25,Behind,Win,Comeback Win,29,245,11.84,"Comeback Win
+11.84%"
+English Premier League,2024/25,Level,Draw,Stable Draw,90,270,33.33,"Stable Draw
+33.33%"
+English Premier League,2024/25,Level,Loss,Draw Lost,90,270,33.33,"Draw Lost
+33.33%"
+English Premier League,2024/25,Level,Win,Draw Breakthrough,90,270,33.33,"Draw Breakthrough
+33.33%"
+French Ligue 1,2015/16,Ahead,Draw,Lead Slip,42,213,19.72,"Lead Slip
+19.72%"
+French Ligue 1,2015/16,Ahead,Loss,Lead Collapse,14,213,6.57,"Lead Collapse
+6.57%"
+French Ligue 1,2015/16,Ahead,Win,Protected Lead,157,213,73.71,"Protected Lead
+73.71%"
+French Ligue 1,2015/16,Behind,Draw,Recovery Draw,42,213,19.72,"Recovery Draw
+19.72%"
+French Ligue 1,2015/16,Behind,Loss,No Recovery,157,213,73.71,"No Recovery
+73.71%"
+French Ligue 1,2015/16,Behind,Win,Comeback Win,14,213,6.57,"Comeback Win
+6.57%"
+French Ligue 1,2015/16,Level,Draw,Stable Draw,132,334,39.52,"Stable Draw
+39.52%"
+French Ligue 1,2015/16,Level,Loss,Draw Lost,101,334,30.24,"Draw Lost
+30.24%"
+French Ligue 1,2015/16,Level,Win,Draw Breakthrough,101,334,30.24,"Draw Breakthrough
+30.24%"
+French Ligue 1,2016/17,Ahead,Draw,Lead Slip,37,216,17.13,"Lead Slip
+17.13%"
+French Ligue 1,2016/17,Ahead,Loss,Lead Collapse,15,216,6.94,"Lead Collapse
+6.94%"
+French Ligue 1,2016/17,Ahead,Win,Protected Lead,164,216,75.93,"Protected Lead
+75.93%"
+French Ligue 1,2016/17,Behind,Draw,Recovery Draw,37,216,17.13,"Recovery Draw
+17.13%"
+French Ligue 1,2016/17,Behind,Loss,No Recovery,164,216,75.93,"No Recovery
+75.93%"
+French Ligue 1,2016/17,Behind,Win,Comeback Win,15,216,6.94,"Comeback Win
+6.94%"
+French Ligue 1,2016/17,Level,Draw,Stable Draw,114,326,34.97,"Stable Draw
+34.97%"
+French Ligue 1,2016/17,Level,Loss,Draw Lost,106,326,32.52,"Draw Lost
+32.52%"
+French Ligue 1,2016/17,Level,Win,Draw Breakthrough,106,326,32.52,"Draw Breakthrough
+32.52%"
+French Ligue 1,2017/18,Ahead,Draw,Lead Slip,44,215,20.47,"Lead Slip
+20.47%"
+French Ligue 1,2017/18,Ahead,Loss,Lead Collapse,12,215,5.58,"Lead Collapse
+5.58%"
+French Ligue 1,2017/18,Ahead,Win,Protected Lead,159,215,73.95,"Protected Lead
+73.95%"
+French Ligue 1,2017/18,Behind,Draw,Recovery Draw,44,215,20.47,"Recovery Draw
+20.47%"
+French Ligue 1,2017/18,Behind,Loss,No Recovery,159,215,73.95,"No Recovery
+73.95%"
+French Ligue 1,2017/18,Behind,Win,Comeback Win,12,215,5.58,"Comeback Win
+5.58%"
+French Ligue 1,2017/18,Level,Draw,Stable Draw,104,330,31.52,"Stable Draw
+31.52%"
+French Ligue 1,2017/18,Level,Loss,Draw Lost,113,330,34.24,"Draw Lost
+34.24%"
+French Ligue 1,2017/18,Level,Win,Draw Breakthrough,113,330,34.24,"Draw Breakthrough
+34.24%"
+French Ligue 1,2018/19,Ahead,Draw,Lead Slip,46,210,21.9,"Lead Slip
+21.9%"
+French Ligue 1,2018/19,Ahead,Loss,Lead Collapse,15,210,7.14,"Lead Collapse
+7.14%"
+French Ligue 1,2018/19,Ahead,Win,Protected Lead,149,210,70.95,"Protected Lead
+70.95%"
+French Ligue 1,2018/19,Behind,Draw,Recovery Draw,46,210,21.9,"Recovery Draw
+21.9%"
+French Ligue 1,2018/19,Behind,Loss,No Recovery,149,210,70.95,"No Recovery
+70.95%"
+French Ligue 1,2018/19,Behind,Win,Comeback Win,15,210,7.14,"Comeback Win
+7.14%"
+French Ligue 1,2018/19,Level,Draw,Stable Draw,128,340,37.65,"Stable Draw
+37.65%"
+French Ligue 1,2018/19,Level,Loss,Draw Lost,106,340,31.18,"Draw Lost
+31.18%"
+French Ligue 1,2018/19,Level,Win,Draw Breakthrough,106,340,31.18,"Draw Breakthrough
+31.18%"
+French Ligue 1,2019/20,Ahead,Draw,Lead Slip,34,161,21.12,"Lead Slip
+21.12%"
+French Ligue 1,2019/20,Ahead,Loss,Lead Collapse,13,161,8.07,"Lead Collapse
+8.07%"
+French Ligue 1,2019/20,Ahead,Win,Protected Lead,114,161,70.81,"Protected Lead
+70.81%"
+French Ligue 1,2019/20,Behind,Draw,Recovery Draw,34,161,21.12,"Recovery Draw
+21.12%"
+French Ligue 1,2019/20,Behind,Loss,No Recovery,114,161,70.81,"No Recovery
+70.81%"
+French Ligue 1,2019/20,Behind,Win,Comeback Win,13,161,8.07,"Comeback Win
+8.07%"
+French Ligue 1,2019/20,Level,Draw,Stable Draw,72,236,30.51,"Stable Draw
+30.51%"
+French Ligue 1,2019/20,Level,Loss,Draw Lost,82,236,34.75,"Draw Lost
+34.75%"
+French Ligue 1,2019/20,Level,Win,Draw Breakthrough,82,236,34.75,"Draw Breakthrough
+34.75%"
+French Ligue 1,2020/21,Ahead,Draw,Lead Slip,41,248,16.53,"Lead Slip
+16.53%"
+French Ligue 1,2020/21,Ahead,Loss,Lead Collapse,23,248,9.27,"Lead Collapse
+9.27%"
+French Ligue 1,2020/21,Ahead,Win,Protected Lead,184,248,74.19,"Protected Lead
+74.19%"
+French Ligue 1,2020/21,Behind,Draw,Recovery Draw,41,248,16.53,"Recovery Draw
+16.53%"
+French Ligue 1,2020/21,Behind,Loss,No Recovery,184,248,74.19,"No Recovery
+74.19%"
+French Ligue 1,2020/21,Behind,Win,Comeback Win,23,248,9.27,"Comeback Win
+9.27%"
+French Ligue 1,2020/21,Level,Draw,Stable Draw,108,264,40.91,"Stable Draw
+40.91%"
+French Ligue 1,2020/21,Level,Loss,Draw Lost,78,264,29.55,"Draw Lost
+29.55%"
+French Ligue 1,2020/21,Level,Win,Draw Breakthrough,78,264,29.55,"Draw Breakthrough
+29.55%"
+French Ligue 1,2021/22,Ahead,Draw,Lead Slip,43,228,18.86,"Lead Slip
+18.86%"
+French Ligue 1,2021/22,Ahead,Loss,Lead Collapse,31,228,13.6,"Lead Collapse
+13.6%"
+French Ligue 1,2021/22,Ahead,Win,Protected Lead,154,228,67.54,"Protected Lead
+67.54%"
+French Ligue 1,2021/22,Behind,Draw,Recovery Draw,43,228,18.86,"Recovery Draw
+18.86%"
+French Ligue 1,2021/22,Behind,Loss,No Recovery,154,228,67.54,"No Recovery
+67.54%"
+French Ligue 1,2021/22,Behind,Win,Comeback Win,31,228,13.6,"Comeback Win
+13.6%"
+French Ligue 1,2021/22,Level,Draw,Stable Draw,118,304,38.82,"Stable Draw
+38.82%"
+French Ligue 1,2021/22,Level,Loss,Draw Lost,93,304,30.59,"Draw Lost
+30.59%"
+French Ligue 1,2021/22,Level,Win,Draw Breakthrough,93,304,30.59,"Draw Breakthrough
+30.59%"
+French Ligue 1,2022/23,Ahead,Draw,Lead Slip,38,237,16.03,"Lead Slip
+16.03%"
+French Ligue 1,2022/23,Ahead,Loss,Lead Collapse,24,237,10.13,"Lead Collapse
+10.13%"
+French Ligue 1,2022/23,Ahead,Win,Protected Lead,175,237,73.84,"Protected Lead
+73.84%"
+French Ligue 1,2022/23,Behind,Draw,Recovery Draw,38,237,16.03,"Recovery Draw
+16.03%"
+French Ligue 1,2022/23,Behind,Loss,No Recovery,175,237,73.84,"No Recovery
+73.84%"
+French Ligue 1,2022/23,Behind,Win,Comeback Win,24,237,10.13,"Comeback Win
+10.13%"
+French Ligue 1,2022/23,Level,Draw,Stable Draw,108,286,37.76,"Stable Draw
+37.76%"
+French Ligue 1,2022/23,Level,Loss,Draw Lost,89,286,31.12,"Draw Lost
+31.12%"
+French Ligue 1,2022/23,Level,Win,Draw Breakthrough,89,286,31.12,"Draw Breakthrough
+31.12%"
+French Ligue 1,2023/24,Ahead,Draw,Lead Slip,28,172,16.28,"Lead Slip
+16.28%"
+French Ligue 1,2023/24,Ahead,Loss,Lead Collapse,13,172,7.56,"Lead Collapse
+7.56%"
+French Ligue 1,2023/24,Ahead,Win,Protected Lead,131,172,76.16,"Protected Lead
+76.16%"
+French Ligue 1,2023/24,Behind,Draw,Recovery Draw,28,172,16.28,"Recovery Draw
+16.28%"
+French Ligue 1,2023/24,Behind,Loss,No Recovery,131,172,76.16,"No Recovery
+76.16%"
+French Ligue 1,2023/24,Behind,Win,Comeback Win,13,172,7.56,"Comeback Win
+7.56%"
+French Ligue 1,2023/24,Level,Draw,Stable Draw,106,268,39.55,"Stable Draw
+39.55%"
+French Ligue 1,2023/24,Level,Loss,Draw Lost,81,268,30.22,"Draw Lost
+30.22%"
+French Ligue 1,2023/24,Level,Win,Draw Breakthrough,81,268,30.22,"Draw Breakthrough
+30.22%"
+French Ligue 1,2024/25,Ahead,Draw,Lead Slip,31,196,15.82,"Lead Slip
+15.82%"
+French Ligue 1,2024/25,Ahead,Loss,Lead Collapse,15,196,7.65,"Lead Collapse
+7.65%"
+French Ligue 1,2024/25,Ahead,Win,Protected Lead,150,196,76.53,"Protected Lead
+76.53%"
+French Ligue 1,2024/25,Behind,Draw,Recovery Draw,31,196,15.82,"Recovery Draw
+15.82%"
+French Ligue 1,2024/25,Behind,Loss,No Recovery,150,196,76.53,"No Recovery
+76.53%"
+French Ligue 1,2024/25,Behind,Win,Comeback Win,15,196,7.65,"Comeback Win
+7.65%"
+French Ligue 1,2024/25,Level,Draw,Stable Draw,62,220,28.18,"Stable Draw
+28.18%"
+French Ligue 1,2024/25,Level,Loss,Draw Lost,79,220,35.91,"Draw Lost
+35.91%"
+French Ligue 1,2024/25,Level,Win,Draw Breakthrough,79,220,35.91,"Draw Breakthrough
+35.91%"
+German Bundesliga,2015/16,Ahead,Draw,Lead Slip,30,179,16.76,"Lead Slip
+16.76%"
+German Bundesliga,2015/16,Ahead,Loss,Lead Collapse,15,179,8.38,"Lead Collapse
+8.38%"
+German Bundesliga,2015/16,Ahead,Win,Protected Lead,134,179,74.86,"Protected Lead
+74.86%"
+German Bundesliga,2015/16,Behind,Draw,Recovery Draw,30,179,16.76,"Recovery Draw
+16.76%"
+German Bundesliga,2015/16,Behind,Loss,No Recovery,134,179,74.86,"No Recovery
+74.86%"
+German Bundesliga,2015/16,Behind,Win,Comeback Win,15,179,8.38,"Comeback Win
+8.38%"
+German Bundesliga,2015/16,Level,Draw,Stable Draw,82,254,32.28,"Stable Draw
+32.28%"
+German Bundesliga,2015/16,Level,Loss,Draw Lost,86,254,33.86,"Draw Lost
+33.86%"
+German Bundesliga,2015/16,Level,Win,Draw Breakthrough,86,254,33.86,"Draw Breakthrough
+33.86%"
+German Bundesliga,2016/17,Ahead,Draw,Lead Slip,26,174,14.94,"Lead Slip
+14.94%"
+German Bundesliga,2016/17,Ahead,Loss,Lead Collapse,15,174,8.62,"Lead Collapse
+8.62%"
+German Bundesliga,2016/17,Ahead,Win,Protected Lead,133,174,76.44,"Protected Lead
+76.44%"
+German Bundesliga,2016/17,Behind,Draw,Recovery Draw,26,174,14.94,"Recovery Draw
+14.94%"
+German Bundesliga,2016/17,Behind,Loss,No Recovery,133,174,76.44,"No Recovery
+76.44%"
+German Bundesliga,2016/17,Behind,Win,Comeback Win,15,174,8.62,"Comeback Win
+8.62%"
+German Bundesliga,2016/17,Level,Draw,Stable Draw,96,264,36.36,"Stable Draw
+36.36%"
+German Bundesliga,2016/17,Level,Loss,Draw Lost,84,264,31.82,"Draw Lost
+31.82%"
+German Bundesliga,2016/17,Level,Win,Draw Breakthrough,84,264,31.82,"Draw Breakthrough
+31.82%"
+German Bundesliga,2017/18,Ahead,Draw,Lead Slip,38,197,19.29,"Lead Slip
+19.29%"
+German Bundesliga,2017/18,Ahead,Loss,Lead Collapse,15,197,7.61,"Lead Collapse
+7.61%"
+German Bundesliga,2017/18,Ahead,Win,Protected Lead,144,197,73.1,"Protected Lead
+73.1%"
+German Bundesliga,2017/18,Behind,Draw,Recovery Draw,38,197,19.29,"Recovery Draw
+19.29%"
+German Bundesliga,2017/18,Behind,Loss,No Recovery,144,197,73.1,"No Recovery
+73.1%"
+German Bundesliga,2017/18,Behind,Win,Comeback Win,15,197,7.61,"Comeback Win
+7.61%"
+German Bundesliga,2017/18,Level,Draw,Stable Draw,90,218,41.28,"Stable Draw
+41.28%"
+German Bundesliga,2017/18,Level,Loss,Draw Lost,64,218,29.36,"Draw Lost
+29.36%"
+German Bundesliga,2017/18,Level,Win,Draw Breakthrough,64,218,29.36,"Draw Breakthrough
+29.36%"
+German Bundesliga,2018/19,Ahead,Draw,Lead Slip,26,188,13.83,"Lead Slip
+13.83%"
+German Bundesliga,2018/19,Ahead,Loss,Lead Collapse,14,188,7.45,"Lead Collapse
+7.45%"
+German Bundesliga,2018/19,Ahead,Win,Protected Lead,148,188,78.72,"Protected Lead
+78.72%"
+German Bundesliga,2018/19,Behind,Draw,Recovery Draw,26,188,13.83,"Recovery Draw
+13.83%"
+German Bundesliga,2018/19,Behind,Loss,No Recovery,148,188,78.72,"No Recovery
+78.72%"
+German Bundesliga,2018/19,Behind,Win,Comeback Win,14,188,7.45,"Comeback Win
+7.45%"
+German Bundesliga,2018/19,Level,Draw,Stable Draw,94,236,39.83,"Stable Draw
+39.83%"
+German Bundesliga,2018/19,Level,Loss,Draw Lost,71,236,30.08,"Draw Lost
+30.08%"
+German Bundesliga,2018/19,Level,Win,Draw Breakthrough,71,236,30.08,"Draw Breakthrough
+30.08%"
+German Bundesliga,2019/20,Ahead,Draw,Lead Slip,27,197,13.71,"Lead Slip
+13.71%"
+German Bundesliga,2019/20,Ahead,Loss,Lead Collapse,14,197,7.11,"Lead Collapse
+7.11%"
+German Bundesliga,2019/20,Ahead,Win,Protected Lead,156,197,79.19,"Protected Lead
+79.19%"
+German Bundesliga,2019/20,Behind,Draw,Recovery Draw,27,197,13.71,"Recovery Draw
+13.71%"
+German Bundesliga,2019/20,Behind,Loss,No Recovery,156,197,79.19,"No Recovery
+79.19%"
+German Bundesliga,2019/20,Behind,Win,Comeback Win,14,197,7.11,"Comeback Win
+7.11%"
+German Bundesliga,2019/20,Level,Draw,Stable Draw,82,218,37.61,"Stable Draw
+37.61%"
+German Bundesliga,2019/20,Level,Loss,Draw Lost,68,218,31.19,"Draw Lost
+31.19%"
+German Bundesliga,2019/20,Level,Win,Draw Breakthrough,68,218,31.19,"Draw Breakthrough
+31.19%"
+German Bundesliga,2020/21,Ahead,Draw,Lead Slip,29,173,16.76,"Lead Slip
+16.76%"
+German Bundesliga,2020/21,Ahead,Loss,Lead Collapse,16,173,9.25,"Lead Collapse
+9.25%"
+German Bundesliga,2020/21,Ahead,Win,Protected Lead,128,173,73.99,"Protected Lead
+73.99%"
+German Bundesliga,2020/21,Behind,Draw,Recovery Draw,29,173,16.76,"Recovery Draw
+16.76%"
+German Bundesliga,2020/21,Behind,Loss,No Recovery,128,173,73.99,"No Recovery
+73.99%"
+German Bundesliga,2020/21,Behind,Win,Comeback Win,16,173,9.25,"Comeback Win
+9.25%"
+German Bundesliga,2020/21,Level,Draw,Stable Draw,104,266,39.1,"Stable Draw
+39.1%"
+German Bundesliga,2020/21,Level,Loss,Draw Lost,81,266,30.45,"Draw Lost
+30.45%"
+German Bundesliga,2020/21,Level,Win,Draw Breakthrough,81,266,30.45,"Draw Breakthrough
+30.45%"
+German Bundesliga,2021/22,Ahead,Draw,Lead Slip,39,199,19.6,"Lead Slip
+19.6%"
+German Bundesliga,2021/22,Ahead,Loss,Lead Collapse,16,199,8.04,"Lead Collapse
+8.04%"
+German Bundesliga,2021/22,Ahead,Win,Protected Lead,144,199,72.36,"Protected Lead
+72.36%"
+German Bundesliga,2021/22,Behind,Draw,Recovery Draw,39,199,19.6,"Recovery Draw
+19.6%"
+German Bundesliga,2021/22,Behind,Loss,No Recovery,144,199,72.36,"No Recovery
+72.36%"
+German Bundesliga,2021/22,Behind,Win,Comeback Win,16,199,8.04,"Comeback Win
+8.04%"
+German Bundesliga,2021/22,Level,Draw,Stable Draw,68,214,31.78,"Stable Draw
+31.78%"
+German Bundesliga,2021/22,Level,Loss,Draw Lost,73,214,34.11,"Draw Lost
+34.11%"
+German Bundesliga,2021/22,Level,Win,Draw Breakthrough,73,214,34.11,"Draw Breakthrough
+34.11%"
+German Bundesliga,2022/23,Ahead,Draw,Lead Slip,30,192,15.62,"Lead Slip
+15.62%"
+German Bundesliga,2022/23,Ahead,Loss,Lead Collapse,16,192,8.33,"Lead Collapse
+8.33%"
+German Bundesliga,2022/23,Ahead,Win,Protected Lead,146,192,76.04,"Protected Lead
+76.04%"
+German Bundesliga,2022/23,Behind,Draw,Recovery Draw,30,192,15.62,"Recovery Draw
+15.62%"
+German Bundesliga,2022/23,Behind,Loss,No Recovery,146,192,76.04,"No Recovery
+76.04%"
+German Bundesliga,2022/23,Behind,Win,Comeback Win,16,192,8.33,"Comeback Win
+8.33%"
+German Bundesliga,2022/23,Level,Draw,Stable Draw,90,228,39.47,"Stable Draw
+39.47%"
+German Bundesliga,2022/23,Level,Loss,Draw Lost,69,228,30.26,"Draw Lost
+30.26%"
+German Bundesliga,2022/23,Level,Win,Draw Breakthrough,69,228,30.26,"Draw Breakthrough
+30.26%"
+German Bundesliga,2023/24,Ahead,Draw,Lead Slip,34,195,17.44,"Lead Slip
+17.44%"
+German Bundesliga,2023/24,Ahead,Loss,Lead Collapse,21,195,10.77,"Lead Collapse
+10.77%"
+German Bundesliga,2023/24,Ahead,Win,Protected Lead,140,195,71.79,"Protected Lead
+71.79%"
+German Bundesliga,2023/24,Behind,Draw,Recovery Draw,34,195,17.44,"Recovery Draw
+17.44%"
+German Bundesliga,2023/24,Behind,Loss,No Recovery,140,195,71.79,"No Recovery
+71.79%"
+German Bundesliga,2023/24,Behind,Win,Comeback Win,21,195,10.77,"Comeback Win
+10.77%"
+German Bundesliga,2023/24,Level,Draw,Stable Draw,94,222,42.34,"Stable Draw
+42.34%"
+German Bundesliga,2023/24,Level,Loss,Draw Lost,64,222,28.83,"Draw Lost
+28.83%"
+German Bundesliga,2023/24,Level,Win,Draw Breakthrough,64,222,28.83,"Draw Breakthrough
+28.83%"
+German Bundesliga,2024/25,Ahead,Draw,Lead Slip,35,200,17.5,"Lead Slip
+17.5%"
+German Bundesliga,2024/25,Ahead,Loss,Lead Collapse,15,200,7.5,"Lead Collapse
+7.5%"
+German Bundesliga,2024/25,Ahead,Win,Protected Lead,150,200,75.0,"Protected Lead
+75.0%"
+German Bundesliga,2024/25,Behind,Draw,Recovery Draw,35,200,17.5,"Recovery Draw
+17.5%"
+German Bundesliga,2024/25,Behind,Loss,No Recovery,150,200,75.0,"No Recovery
+75.0%"
+German Bundesliga,2024/25,Behind,Win,Comeback Win,15,200,7.5,"Comeback Win
+7.5%"
+German Bundesliga,2024/25,Level,Draw,Stable Draw,84,210,40.0,"Stable Draw
+40.0%"
+German Bundesliga,2024/25,Level,Loss,Draw Lost,63,210,30.0,"Draw Lost
+30.0%"
+German Bundesliga,2024/25,Level,Win,Draw Breakthrough,63,210,30.0,"Draw Breakthrough
+30.0%"
+Italian Serie A,2015/16,Ahead,Draw,Lead Slip,27,214,12.62,"Lead Slip
+12.62%"
+Italian Serie A,2015/16,Ahead,Loss,Lead Collapse,17,214,7.94,"Lead Collapse
+7.94%"
+Italian Serie A,2015/16,Ahead,Win,Protected Lead,170,214,79.44,"Protected Lead
+79.44%"
+Italian Serie A,2015/16,Behind,Draw,Recovery Draw,27,214,12.62,"Recovery Draw
+12.62%"
+Italian Serie A,2015/16,Behind,Loss,No Recovery,170,214,79.44,"No Recovery
+79.44%"
+Italian Serie A,2015/16,Behind,Win,Comeback Win,17,214,7.94,"Comeback Win
+7.94%"
+Italian Serie A,2015/16,Level,Draw,Stable Draw,136,332,40.96,"Stable Draw
+40.96%"
+Italian Serie A,2015/16,Level,Loss,Draw Lost,98,332,29.52,"Draw Lost
+29.52%"
+Italian Serie A,2015/16,Level,Win,Draw Breakthrough,98,332,29.52,"Draw Breakthrough
+29.52%"
+Italian Serie A,2016/17,Ahead,Draw,Lead Slip,39,231,16.88,"Lead Slip
+16.88%"
+Italian Serie A,2016/17,Ahead,Loss,Lead Collapse,20,231,8.66,"Lead Collapse
+8.66%"
+Italian Serie A,2016/17,Ahead,Win,Protected Lead,172,231,74.46,"Protected Lead
+74.46%"
+Italian Serie A,2016/17,Behind,Draw,Recovery Draw,39,231,16.88,"Recovery Draw
+16.88%"
+Italian Serie A,2016/17,Behind,Loss,No Recovery,172,231,74.46,"No Recovery
+74.46%"
+Italian Serie A,2016/17,Behind,Win,Comeback Win,20,231,8.66,"Comeback Win
+8.66%"
+Italian Serie A,2016/17,Level,Draw,Stable Draw,82,296,27.7,"Stable Draw
+27.7%"
+Italian Serie A,2016/17,Level,Loss,Draw Lost,107,296,36.15,"Draw Lost
+36.15%"
+Italian Serie A,2016/17,Level,Win,Draw Breakthrough,107,296,36.15,"Draw Breakthrough
+36.15%"
+Italian Serie A,2017/18,Ahead,Draw,Lead Slip,28,215,13.02,"Lead Slip
+13.02%"
+Italian Serie A,2017/18,Ahead,Loss,Lead Collapse,16,215,7.44,"Lead Collapse
+7.44%"
+Italian Serie A,2017/18,Ahead,Win,Protected Lead,171,215,79.53,"Protected Lead
+79.53%"
+Italian Serie A,2017/18,Behind,Draw,Recovery Draw,28,215,13.02,"Recovery Draw
+13.02%"
+Italian Serie A,2017/18,Behind,Loss,No Recovery,171,215,79.53,"No Recovery
+79.53%"
+Italian Serie A,2017/18,Behind,Win,Comeback Win,16,215,7.44,"Comeback Win
+7.44%"
+Italian Serie A,2017/18,Level,Draw,Stable Draw,110,330,33.33,"Stable Draw
+33.33%"
+Italian Serie A,2017/18,Level,Loss,Draw Lost,110,330,33.33,"Draw Lost
+33.33%"
+Italian Serie A,2017/18,Level,Win,Draw Breakthrough,110,330,33.33,"Draw Breakthrough
+33.33%"
+Italian Serie A,2018/19,Ahead,Draw,Lead Slip,49,214,22.9,"Lead Slip
+22.9%"
+Italian Serie A,2018/19,Ahead,Loss,Lead Collapse,16,214,7.48,"Lead Collapse
+7.48%"
+Italian Serie A,2018/19,Ahead,Win,Protected Lead,149,214,69.63,"Protected Lead
+69.63%"
+Italian Serie A,2018/19,Behind,Draw,Recovery Draw,49,214,22.9,"Recovery Draw
+22.9%"
+Italian Serie A,2018/19,Behind,Loss,No Recovery,149,214,69.63,"No Recovery
+69.63%"
+Italian Serie A,2018/19,Behind,Win,Comeback Win,16,214,7.48,"Comeback Win
+7.48%"
+Italian Serie A,2018/19,Level,Draw,Stable Draw,118,332,35.54,"Stable Draw
+35.54%"
+Italian Serie A,2018/19,Level,Loss,Draw Lost,107,332,32.23,"Draw Lost
+32.23%"
+Italian Serie A,2018/19,Level,Win,Draw Breakthrough,107,332,32.23,"Draw Breakthrough
+32.23%"
+Italian Serie A,2019/20,Ahead,Draw,Lead Slip,35,231,15.15,"Lead Slip
+15.15%"
+Italian Serie A,2019/20,Ahead,Loss,Lead Collapse,40,231,17.32,"Lead Collapse
+17.32%"
+Italian Serie A,2019/20,Ahead,Win,Protected Lead,156,231,67.53,"Protected Lead
+67.53%"
+Italian Serie A,2019/20,Behind,Draw,Recovery Draw,35,231,15.15,"Recovery Draw
+15.15%"
+Italian Serie A,2019/20,Behind,Loss,No Recovery,156,231,67.53,"No Recovery
+67.53%"
+Italian Serie A,2019/20,Behind,Win,Comeback Win,40,231,17.32,"Comeback Win
+17.32%"
+Italian Serie A,2019/20,Level,Draw,Stable Draw,100,298,33.56,"Stable Draw
+33.56%"
+Italian Serie A,2019/20,Level,Loss,Draw Lost,99,298,33.22,"Draw Lost
+33.22%"
+Italian Serie A,2019/20,Level,Win,Draw Breakthrough,99,298,33.22,"Draw Breakthrough
+33.22%"
+Italian Serie A,2020/21,Ahead,Draw,Lead Slip,42,235,17.87,"Lead Slip
+17.87%"
+Italian Serie A,2020/21,Ahead,Loss,Lead Collapse,19,235,8.09,"Lead Collapse
+8.09%"
+Italian Serie A,2020/21,Ahead,Win,Protected Lead,174,235,74.04,"Protected Lead
+74.04%"
+Italian Serie A,2020/21,Behind,Draw,Recovery Draw,42,235,17.87,"Recovery Draw
+17.87%"
+Italian Serie A,2020/21,Behind,Loss,No Recovery,174,235,74.04,"No Recovery
+74.04%"
+Italian Serie A,2020/21,Behind,Win,Comeback Win,19,235,8.09,"Comeback Win
+8.09%"
+Italian Serie A,2020/21,Level,Draw,Stable Draw,110,290,37.93,"Stable Draw
+37.93%"
+Italian Serie A,2020/21,Level,Loss,Draw Lost,90,290,31.03,"Draw Lost
+31.03%"
+Italian Serie A,2020/21,Level,Win,Draw Breakthrough,90,290,31.03,"Draw Breakthrough
+31.03%"
+Italian Serie A,2021/22,Ahead,Draw,Lead Slip,46,248,18.55,"Lead Slip
+18.55%"
+Italian Serie A,2021/22,Ahead,Loss,Lead Collapse,24,248,9.68,"Lead Collapse
+9.68%"
+Italian Serie A,2021/22,Ahead,Win,Protected Lead,178,248,71.77,"Protected Lead
+71.77%"
+Italian Serie A,2021/22,Behind,Draw,Recovery Draw,46,248,18.55,"Recovery Draw
+18.55%"
+Italian Serie A,2021/22,Behind,Loss,No Recovery,178,248,71.77,"No Recovery
+71.77%"
+Italian Serie A,2021/22,Behind,Win,Comeback Win,24,248,9.68,"Comeback Win
+9.68%"
+Italian Serie A,2021/22,Level,Draw,Stable Draw,104,264,39.39,"Stable Draw
+39.39%"
+Italian Serie A,2021/22,Level,Loss,Draw Lost,80,264,30.3,"Draw Lost
+30.3%"
+Italian Serie A,2021/22,Level,Win,Draw Breakthrough,80,264,30.3,"Draw Breakthrough
+30.3%"
+Italian Serie A,2022/23,Ahead,Draw,Lead Slip,46,223,20.63,"Lead Slip
+20.63%"
+Italian Serie A,2022/23,Ahead,Loss,Lead Collapse,17,223,7.62,"Lead Collapse
+7.62%"
+Italian Serie A,2022/23,Ahead,Win,Protected Lead,160,223,71.75,"Protected Lead
+71.75%"
+Italian Serie A,2022/23,Behind,Draw,Recovery Draw,46,223,20.63,"Recovery Draw
+20.63%"
+Italian Serie A,2022/23,Behind,Loss,No Recovery,160,223,71.75,"No Recovery
+71.75%"
+Italian Serie A,2022/23,Behind,Win,Comeback Win,17,223,7.62,"Comeback Win
+7.62%"
+Italian Serie A,2022/23,Level,Draw,Stable Draw,108,314,34.39,"Stable Draw
+34.39%"
+Italian Serie A,2022/23,Level,Loss,Draw Lost,103,314,32.8,"Draw Lost
+32.8%"
+Italian Serie A,2022/23,Level,Win,Draw Breakthrough,103,314,32.8,"Draw Breakthrough
+32.8%"
+Italian Serie A,2023/24,Ahead,Draw,Lead Slip,45,223,20.18,"Lead Slip
+20.18%"
+Italian Serie A,2023/24,Ahead,Loss,Lead Collapse,22,223,9.87,"Lead Collapse
+9.87%"
+Italian Serie A,2023/24,Ahead,Win,Protected Lead,156,223,69.96,"Protected Lead
+69.96%"
+Italian Serie A,2023/24,Behind,Draw,Recovery Draw,45,223,20.18,"Recovery Draw
+20.18%"
+Italian Serie A,2023/24,Behind,Loss,No Recovery,156,223,69.96,"No Recovery
+69.96%"
+Italian Serie A,2023/24,Behind,Win,Comeback Win,22,223,9.87,"Comeback Win
+9.87%"
+Italian Serie A,2023/24,Level,Draw,Stable Draw,134,314,42.68,"Stable Draw
+42.68%"
+Italian Serie A,2023/24,Level,Loss,Draw Lost,90,314,28.66,"Draw Lost
+28.66%"
+Italian Serie A,2023/24,Level,Win,Draw Breakthrough,90,314,28.66,"Draw Breakthrough
+28.66%"
+Italian Serie A,2024/25,Ahead,Draw,Lead Slip,45,216,20.83,"Lead Slip
+20.83%"
+Italian Serie A,2024/25,Ahead,Loss,Lead Collapse,24,216,11.11,"Lead Collapse
+11.11%"
+Italian Serie A,2024/25,Ahead,Win,Protected Lead,147,216,68.06,"Protected Lead
+68.06%"
+Italian Serie A,2024/25,Behind,Draw,Recovery Draw,45,216,20.83,"Recovery Draw
+20.83%"
+Italian Serie A,2024/25,Behind,Loss,No Recovery,147,216,68.06,"No Recovery
+68.06%"
+Italian Serie A,2024/25,Behind,Win,Comeback Win,24,216,11.11,"Comeback Win
+11.11%"
+Italian Serie A,2024/25,Level,Draw,Stable Draw,126,328,38.41,"Stable Draw
+38.41%"
+Italian Serie A,2024/25,Level,Loss,Draw Lost,101,328,30.79,"Draw Lost
+30.79%"
+Italian Serie A,2024/25,Level,Win,Draw Breakthrough,101,328,30.79,"Draw Breakthrough
+30.79%"
+Spanish La Liga,2015/16,Ahead,Draw,Lead Slip,43,237,18.14,"Lead Slip
+18.14%"
+Spanish La Liga,2015/16,Ahead,Loss,Lead Collapse,11,237,4.64,"Lead Collapse
+4.64%"
+Spanish La Liga,2015/16,Ahead,Win,Protected Lead,183,237,77.22,"Protected Lead
+77.22%"
+Spanish La Liga,2015/16,Behind,Draw,Recovery Draw,43,237,18.14,"Recovery Draw
+18.14%"
+Spanish La Liga,2015/16,Behind,Loss,No Recovery,183,237,77.22,"No Recovery
+77.22%"
+Spanish La Liga,2015/16,Behind,Win,Comeback Win,11,237,4.64,"Comeback Win
+4.64%"
+Spanish La Liga,2015/16,Level,Draw,Stable Draw,98,286,34.27,"Stable Draw
+34.27%"
+Spanish La Liga,2015/16,Level,Loss,Draw Lost,94,286,32.87,"Draw Lost
+32.87%"
+Spanish La Liga,2015/16,Level,Win,Draw Breakthrough,94,286,32.87,"Draw Breakthrough
+32.87%"
+Spanish La Liga,2016/17,Ahead,Draw,Lead Slip,29,216,13.43,"Lead Slip
+13.43%"
+Spanish La Liga,2016/17,Ahead,Loss,Lead Collapse,16,216,7.41,"Lead Collapse
+7.41%"
+Spanish La Liga,2016/17,Ahead,Win,Protected Lead,171,216,79.17,"Protected Lead
+79.17%"
+Spanish La Liga,2016/17,Behind,Draw,Recovery Draw,29,216,13.43,"Recovery Draw
+13.43%"
+Spanish La Liga,2016/17,Behind,Loss,No Recovery,171,216,79.17,"No Recovery
+79.17%"
+Spanish La Liga,2016/17,Behind,Win,Comeback Win,16,216,7.41,"Comeback Win
+7.41%"
+Spanish La Liga,2016/17,Level,Draw,Stable Draw,120,328,36.59,"Stable Draw
+36.59%"
+Spanish La Liga,2016/17,Level,Loss,Draw Lost,104,328,31.71,"Draw Lost
+31.71%"
+Spanish La Liga,2016/17,Level,Win,Draw Breakthrough,104,328,31.71,"Draw Breakthrough
+31.71%"
+Spanish La Liga,2017/18,Ahead,Draw,Lead Slip,26,221,11.76,"Lead Slip
+11.76%"
+Spanish La Liga,2017/18,Ahead,Loss,Lead Collapse,12,221,5.43,"Lead Collapse
+5.43%"
+Spanish La Liga,2017/18,Ahead,Win,Protected Lead,183,221,82.81,"Protected Lead
+82.81%"
+Spanish La Liga,2017/18,Behind,Draw,Recovery Draw,26,221,11.76,"Recovery Draw
+11.76%"
+Spanish La Liga,2017/18,Behind,Loss,No Recovery,183,221,82.81,"No Recovery
+82.81%"
+Spanish La Liga,2017/18,Behind,Win,Comeback Win,12,221,5.43,"Comeback Win
+5.43%"
+Spanish La Liga,2017/18,Level,Draw,Stable Draw,120,318,37.74,"Stable Draw
+37.74%"
+Spanish La Liga,2017/18,Level,Loss,Draw Lost,99,318,31.13,"Draw Lost
+31.13%"
+Spanish La Liga,2017/18,Level,Win,Draw Breakthrough,99,318,31.13,"Draw Breakthrough
+31.13%"
+Spanish La Liga,2018/19,Ahead,Draw,Lead Slip,56,218,25.69,"Lead Slip
+25.69%"
+Spanish La Liga,2018/19,Ahead,Loss,Lead Collapse,22,218,10.09,"Lead Collapse
+10.09%"
+Spanish La Liga,2018/19,Ahead,Win,Protected Lead,140,218,64.22,"Protected Lead
+64.22%"
+Spanish La Liga,2018/19,Behind,Draw,Recovery Draw,56,218,25.69,"Recovery Draw
+25.69%"
+Spanish La Liga,2018/19,Behind,Loss,No Recovery,140,218,64.22,"No Recovery
+64.22%"
+Spanish La Liga,2018/19,Behind,Win,Comeback Win,22,218,10.09,"Comeback Win
+10.09%"
+Spanish La Liga,2018/19,Level,Draw,Stable Draw,108,324,33.33,"Stable Draw
+33.33%"
+Spanish La Liga,2018/19,Level,Loss,Draw Lost,108,324,33.33,"Draw Lost
+33.33%"
+Spanish La Liga,2018/19,Level,Win,Draw Breakthrough,108,324,33.33,"Draw Breakthrough
+33.33%"
+Spanish La Liga,2019/20,Ahead,Draw,Lead Slip,32,197,16.24,"Lead Slip
+16.24%"
+Spanish La Liga,2019/20,Ahead,Loss,Lead Collapse,19,197,9.64,"Lead Collapse
+9.64%"
+Spanish La Liga,2019/20,Ahead,Win,Protected Lead,146,197,74.11,"Protected Lead
+74.11%"
+Spanish La Liga,2019/20,Behind,Draw,Recovery Draw,32,197,16.24,"Recovery Draw
+16.24%"
+Spanish La Liga,2019/20,Behind,Loss,No Recovery,146,197,74.11,"No Recovery
+74.11%"
+Spanish La Liga,2019/20,Behind,Win,Comeback Win,19,197,9.64,"Comeback Win
+9.64%"
+Spanish La Liga,2019/20,Level,Draw,Stable Draw,146,366,39.89,"Stable Draw
+39.89%"
+Spanish La Liga,2019/20,Level,Loss,Draw Lost,110,366,30.05,"Draw Lost
+30.05%"
+Spanish La Liga,2019/20,Level,Win,Draw Breakthrough,110,366,30.05,"Draw Breakthrough
+30.05%"
+Spanish La Liga,2020/21,Ahead,Draw,Lead Slip,47,212,22.17,"Lead Slip
+22.17%"
+Spanish La Liga,2020/21,Ahead,Loss,Lead Collapse,13,212,6.13,"Lead Collapse
+6.13%"
+Spanish La Liga,2020/21,Ahead,Win,Protected Lead,152,212,71.7,"Protected Lead
+71.7%"
+Spanish La Liga,2020/21,Behind,Draw,Recovery Draw,47,212,22.17,"Recovery Draw
+22.17%"
+Spanish La Liga,2020/21,Behind,Loss,No Recovery,152,212,71.7,"No Recovery
+71.7%"
+Spanish La Liga,2020/21,Behind,Win,Comeback Win,13,212,6.13,"Comeback Win
+6.13%"
+Spanish La Liga,2020/21,Level,Draw,Stable Draw,124,336,36.9,"Stable Draw
+36.9%"
+Spanish La Liga,2020/21,Level,Loss,Draw Lost,106,336,31.55,"Draw Lost
+31.55%"
+Spanish La Liga,2020/21,Level,Win,Draw Breakthrough,106,336,31.55,"Draw Breakthrough
+31.55%"
+Spanish La Liga,2021/22,Ahead,Draw,Lead Slip,40,205,19.51,"Lead Slip
+19.51%"
+Spanish La Liga,2021/22,Ahead,Loss,Lead Collapse,16,205,7.8,"Lead Collapse
+7.8%"
+Spanish La Liga,2021/22,Ahead,Win,Protected Lead,149,205,72.68,"Protected Lead
+72.68%"
+Spanish La Liga,2021/22,Behind,Draw,Recovery Draw,40,205,19.51,"Recovery Draw
+19.51%"
+Spanish La Liga,2021/22,Behind,Loss,No Recovery,149,205,72.68,"No Recovery
+72.68%"
+Spanish La Liga,2021/22,Behind,Win,Comeback Win,16,205,7.8,"Comeback Win
+7.8%"
+Spanish La Liga,2021/22,Level,Draw,Stable Draw,142,350,40.57,"Stable Draw
+40.57%"
+Spanish La Liga,2021/22,Level,Loss,Draw Lost,104,350,29.71,"Draw Lost
+29.71%"
+Spanish La Liga,2021/22,Level,Win,Draw Breakthrough,104,350,29.71,"Draw Breakthrough
+29.71%"
+Spanish La Liga,2022/23,Ahead,Draw,Lead Slip,35,207,16.91,"Lead Slip
+16.91%"
+Spanish La Liga,2022/23,Ahead,Loss,Lead Collapse,12,207,5.8,"Lead Collapse
+5.8%"
+Spanish La Liga,2022/23,Ahead,Win,Protected Lead,160,207,77.29,"Protected Lead
+77.29%"
+Spanish La Liga,2022/23,Behind,Draw,Recovery Draw,35,207,16.91,"Recovery Draw
+16.91%"
+Spanish La Liga,2022/23,Behind,Loss,No Recovery,160,207,77.29,"No Recovery
+77.29%"
+Spanish La Liga,2022/23,Behind,Win,Comeback Win,12,207,5.8,"Comeback Win
+5.8%"
+Spanish La Liga,2022/23,Level,Draw,Stable Draw,108,346,31.21,"Stable Draw
+31.21%"
+Spanish La Liga,2022/23,Level,Loss,Draw Lost,119,346,34.39,"Draw Lost
+34.39%"
+Spanish La Liga,2022/23,Level,Win,Draw Breakthrough,119,346,34.39,"Draw Breakthrough
+34.39%"
+Spanish La Liga,2023/24,Ahead,Draw,Lead Slip,39,219,17.81,"Lead Slip
+17.81%"
+Spanish La Liga,2023/24,Ahead,Loss,Lead Collapse,18,219,8.22,"Lead Collapse
+8.22%"
+Spanish La Liga,2023/24,Ahead,Win,Protected Lead,162,219,73.97,"Protected Lead
+73.97%"
+Spanish La Liga,2023/24,Behind,Draw,Recovery Draw,39,219,17.81,"Recovery Draw
+17.81%"
+Spanish La Liga,2023/24,Behind,Loss,No Recovery,162,219,73.97,"No Recovery
+73.97%"
+Spanish La Liga,2023/24,Behind,Win,Comeback Win,18,219,8.22,"Comeback Win
+8.22%"
+Spanish La Liga,2023/24,Level,Draw,Stable Draw,136,322,42.24,"Stable Draw
+42.24%"
+Spanish La Liga,2023/24,Level,Loss,Draw Lost,93,322,28.88,"Draw Lost
+28.88%"
+Spanish La Liga,2023/24,Level,Win,Draw Breakthrough,93,322,28.88,"Draw Breakthrough
+28.88%"
+Spanish La Liga,2024/25,Ahead,Draw,Lead Slip,43,211,20.38,"Lead Slip
+20.38%"
+Spanish La Liga,2024/25,Ahead,Loss,Lead Collapse,23,211,10.9,"Lead Collapse
+10.9%"
+Spanish La Liga,2024/25,Ahead,Win,Protected Lead,145,211,68.72,"Protected Lead
+68.72%"
+Spanish La Liga,2024/25,Behind,Draw,Recovery Draw,43,211,20.38,"Recovery Draw
+20.38%"
+Spanish La Liga,2024/25,Behind,Loss,No Recovery,145,211,68.72,"No Recovery
+68.72%"
+Spanish La Liga,2024/25,Behind,Win,Comeback Win,23,211,10.9,"Comeback Win
+10.9%"
+Spanish La Liga,2024/25,Level,Draw,Stable Draw,108,338,31.95,"Stable Draw
+31.95%"
+Spanish La Liga,2024/25,Level,Loss,Draw Lost,115,338,34.02,"Draw Lost
+34.02%"
+Spanish La Liga,2024/25,Level,Win,Draw Breakthrough,115,338,34.02,"Draw Breakthrough
+34.02%"

@@ -1,0 +1,147 @@
+.block-container {
+    max-width: 1400px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+[data-testid="stMetric"] {
+    min-height: 105px;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+    border-radius: 14px;
+    padding: 14px 16px;
+    background: rgba(128, 128, 128, 0.055);
+}
+
+[data-testid="stMetricLabel"] {
+    font-weight: 650;
+}
+
+.hero {
+    padding: 1.4rem 1.5rem 1.1rem 1.5rem;
+    border: 1px solid rgba(124, 185, 232, 0.28);
+    border-radius: 18px;
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(124, 185, 232, 0.14),
+            transparent 38%
+        ),
+        rgba(128, 128, 128, 0.04);
+    margin-bottom: 1rem;
+}
+
+.hero-kicker {
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12rem;
+    opacity: 0.72;
+    margin-bottom: 0.45rem;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.55rem;
+    line-height: 1.1;
+}
+
+.hero p {
+    margin: 0.7rem 0 0 0;
+    max-width: 900px;
+    font-size: 1.05rem;
+    opacity: 0.82;
+}
+
+.research-box {
+    padding: 1rem 1.2rem;
+    border-left: 4px solid #7CB9E8;
+    background: rgba(124, 185, 232, 0.075);
+    border-radius: 10px;
+    margin-bottom: 1.35rem;
+}
+
+.research-label {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08rem;
+    opacity: 0.68;
+    margin-bottom: 0.3rem;
+}
+
+.research-text {
+    font-size: 1.03rem;
+    font-weight: 650;
+    line-height: 1.55;
+}
+
+.feature-card {
+    min-height: 205px;
+    padding: 1.15rem;
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    border-radius: 15px;
+    background: rgba(128, 128, 128, 0.045);
+    margin-bottom: 0.65rem;
+}
+
+.feature-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.65rem;
+}
+
+.feature-title {
+    font-size: 1.16rem;
+    font-weight: 750;
+    margin-bottom: 0.55rem;
+}
+
+.feature-text {
+    line-height: 1.55;
+    opacity: 0.78;
+}
+
+.definition-card {
+    min-height: 135px;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 13px;
+    background: rgba(128, 128, 128, 0.035);
+}
+
+.definition-title {
+    font-weight: 750;
+    margin-bottom: 0.45rem;
+}
+
+.definition-text {
+    line-height: 1.5;
+    opacity: 0.76;
+}
+
+.content-panel {
+    min-height: 165px;
+    padding: 1.1rem 1.15rem;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 14px;
+    background: rgba(128, 128, 128, 0.035);
+}
+
+.panel-title {
+    font-size: 1.08rem;
+    font-weight: 750;
+    margin-bottom: 0.55rem;
+}
+
+.panel-text {
+    line-height: 1.6;
+    opacity: 0.78;
+}
+
+.section-note {
+    padding: 0.8rem 1rem;
+    border-left: 4px solid #7CB9E8;
+    background: rgba(124, 185, 232, 0.07);
+    border-radius: 8px;
+}
+
+div[data-testid="stPageLink"] a {
+    border-radius: 10px;
+}
