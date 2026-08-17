@@ -264,7 +264,7 @@ with trend_left:
 
     st.plotly_chart(
         points_chart,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False},
     )
 
@@ -310,7 +310,7 @@ with trend_right:
 
     st.plotly_chart(
         metric_chart,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False},
     )
 
@@ -418,7 +418,7 @@ with quadrant_left:
 
     st.plotly_chart(
         quadrant_chart,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False},
     )
 
@@ -477,7 +477,7 @@ with quadrant_right:
 
     st.plotly_chart(
         scoring_chart,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False},
     )
 
@@ -552,7 +552,7 @@ with venue_tab1:
 
     st.plotly_chart(
         venue_results_chart,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False},
     )
 
@@ -609,7 +609,7 @@ with venue_tab2:
 
     st.plotly_chart(
         venue_states_chart,
-        use_container_width=True,
+        width="stretch",
         config={"displayModeBar": False},
     )
 

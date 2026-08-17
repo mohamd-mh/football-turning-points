@@ -88,7 +88,7 @@ with page1:
         "pages/1_League_Overview.py",
         label="Open League Overview",
         icon="📈",
-        use_container_width=True,
+        width="stretch",
     )
 
 with page2:
@@ -109,7 +109,7 @@ with page2:
         "pages/2_Team_Explorer.py",
         label="Open Team Explorer",
         icon="🛡️",
-        use_container_width=True,
+        width="stretch",
     )
 
 with page3:
@@ -130,7 +130,7 @@ with page3:
         "pages/3_Match_Cases.py",
         label="Open Match Cases",
         icon="🔎",
-        use_container_width=True,
+        width="stretch",
     )
 
 st.subheader("How to read the analysis")

@@ -199,7 +199,7 @@ with transition_tab:
 
             st.plotly_chart(
                 count_chart,
-                use_container_width=True,
+                width="stretch",
                 config={"displayModeBar": False},
             )
 
@@ -245,7 +245,7 @@ with transition_tab:
 
             st.plotly_chart(
                 scatter_chart,
-                use_container_width=True,
+                width="stretch",
                 config={"displayModeBar": False},
             )
 
@@ -296,7 +296,7 @@ with transition_tab:
             table_data[display_columns].rename(
                 columns=display_names
             ),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
             height=420,
         )
@@ -398,7 +398,7 @@ with outlier_tab:
 
             st.plotly_chart(
                 ranking_chart,
-                use_container_width=True,
+                width="stretch",
                 config={"displayModeBar": False},
             )
 
@@ -443,7 +443,7 @@ with outlier_tab:
 
             st.plotly_chart(
                 intensity_chart,
-                use_container_width=True,
+                width="stretch",
                 config={"displayModeBar": False},
             )
 
@@ -490,7 +490,7 @@ with outlier_tab:
             outlier_table[outlier_columns].rename(
                 columns=outlier_names
             ),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
             height=440,
         )
