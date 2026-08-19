@@ -1,46 +1,208 @@
-Football Turning Points
+<div align="center">
 
-Interactive football visualization project analyzing how matches change between halftime and full time across Europe’s five major football leagues from 2015/16 through 2024/25.
+⚽ Football Turning Points
 
-Live Application
+Interactive visualization of halftime → full-time match dynamics
 
-Streamlit app: https://football-turning-points.streamlit.app
+Explore how teams protect leads, recover from deficits, break halftime draws, and experience volatile second halves across Europe’s five major football leagues.
 
-Main Research Question
+
+
+
+
+
+</div>
+
+🎯 Research Question
 
 How do European football teams protect leads, recover from deficits, break halftime draws, and experience volatile second halves across leagues and seasons?
 
-The application is designed to move from broad patterns to detailed evidence: first comparing leagues, then examining individual teams, and finally inspecting turning-point matches and statistical outliers.
+The project is designed as an overview → comparison → detail analytical workflow.
+A viewer can begin with league-level patterns, continue to team-level behavior, and finally inspect the individual matches behind unusual results.
 
-Dataset at a Glance
+📊 Dataset at a Glance
 
-18,008 matches
+Metric
 
-5 leagues
+Value
 
-10 seasons
+Matches
 
-160 teams
-
-976 team-season records
-
-Seasons covered: 2015/16–2024/25
+18,008
 
 Leagues
 
-English Premier League
+5
 
-Spanish La Liga
+Seasons
 
-Italian Serie A
+10
 
-German Bundesliga
+Teams
 
-French Ligue 1
+160
 
-The deployed application uses nine processed CSV tables stored in the data/ directory.
+Team-season records
 
-Processed Data Tables
+976
+
+Coverage
+
+2015/16–2024/25
+
+Leagues included
+
+🏴 English Premier League
+
+🇪🇸 Spanish La Liga
+
+🇮🇹 Italian Serie A
+
+🇩🇪 German Bundesliga
+
+🇫🇷 French Ligue 1
+
+🧭 Application Structure
+
+The application contains three complementary analytical pages.
+
+📈 1. League Overview
+
+Compare league behavior across seasons.
+
+Questions answered:
+
+Which league protects halftime leads most effectively?
+
+Which league produces more comeback wins?
+
+How has match behavior changed over time?
+
+Which leagues are more volatile?
+
+What typically happens after different halftime states?
+
+Main interactions: league filter, season range, metric selector, coordinated views, hover details.
+
+🛡️ 2. Team Explorer
+
+Examine one club relative to its league and across seasons.
+
+Questions answered:
+
+How has the team performed over time?
+
+Is the team above or below its league benchmark?
+
+How strong is its lead protection?
+
+How often does it recover from deficits?
+
+Does home versus away performance differ?
+
+Main interactions: league selection, team selection, metric selectors, analytical tabs, benchmark comparisons.
+
+🔎 3. Match Cases & Outliers
+
+Move from aggregate patterns to the individual matches that produced them.
+
+Turning-point cases
+
+Comeback Win
+
+Recovery Draw
+
+Draw Breakthrough
+
+Lead Collapse
+
+Statistical outliers
+
+Highest Swing Intensity
+
+Highest-Scoring Matches
+
+Most Cards
+
+Most Shots with Few Goals
+
+Main interactions: case selector, outlier selector, filters, hover details, density views, ranked tables, details-on-demand.
+
+🔄 Core Match-State Concepts
+
+Concept
+
+Meaning
+
+Lead protection
+
+Percentage of halftime leads that remain wins at full time
+
+Comeback win
+
+A team trails at halftime and finishes as the winner
+
+Recovery draw
+
+A team trails at halftime and recovers to finish level
+
+Draw breakthrough
+
+A team is level at halftime and converts the match into a win
+
+Lead collapse
+
+A team leads at halftime but finishes with a loss
+
+Match volatility
+
+Extent to which the score or match state changes after halftime
+
+💡 Why the Visualization Is Useful
+
+The raw data contains thousands of match records. Reading rows manually makes it difficult to identify:
+
+long-term league differences;
+
+seasonal changes;
+
+team-specific strengths and weaknesses;
+
+home-versus-away effects;
+
+unusual comeback or collapse patterns;
+
+statistical outliers.
+
+The application converts those records into an interactive visual workflow that lets the viewer:
+
+compare → filter → focus → inspect → verify
+
+rather than manually searching the dataset.
+
+🧹 Data Preparation
+
+The deployed application uses processed analysis-ready CSV files.
+
+Main preprocessing tasks included:
+
+Combining match records across leagues and seasons.
+
+Standardizing league, season, team, score, and match identifiers.
+
+Deriving halftime and full-time match states.
+
+Calculating league-, team-, season-, and venue-level metrics.
+
+Calculating halftime-to-full-time transition rates.
+
+Creating turning-point categories.
+
+Creating unique match identifiers to avoid double-counting team-perspective records.
+
+Preparing match-level outlier rankings.
+
+🗂️ Processed Data Files
 
 File
 
@@ -48,7 +210,7 @@ Purpose
 
 01_transition_matrix_rates.csv
 
-Halftime-to-full-time transition rates
+Halftime → full-time transition rates
 
 02_league_season_metrics.csv
 
@@ -56,11 +218,11 @@ League metrics by season
 
 03_league_metrics.csv
 
-Overall league-level metrics
+Overall league metrics
 
 04_team_metrics.csv
 
-Overall team-level metrics
+Overall team metrics
 
 05_team_season_metrics.csv
 
@@ -68,150 +230,65 @@ Team metrics by season
 
 06_home_away_metrics.csv
 
-Home-versus-away team performance
+Home-versus-away performance
 
 07_opponent_transition_rates.csv
 
-Opponent-based transition metrics
+Opponent-based transition rates
 
 08_team_transition_cases.csv
 
-Turning-point match cases from the team perspective
+Turning-point match cases
 
 09_match_outlier_cases.csv
 
 Match-level outlier rankings
 
-Preprocessing
+🛠️ Technology Stack
 
-The original match data was transformed into analysis-ready tables before being loaded by the web application.
+Tool
 
-The preprocessing stage included:
-
-combining match records across leagues and seasons;
-
-standardizing league, season, team, score, and match identifiers;
-
-deriving halftime and full-time match states;
-
-calculating league-, team-, season-, and venue-level aggregate metrics;
-
-calculating halftime-to-full-time transition rates;
-
-generating turning-point categories such as comeback wins, recovery draws, draw breakthroughs, and lead collapses;
-
-preparing unique-match identifiers so match-level statistics are not double-counted when a source table contains team-perspective records;
-
-preparing match-level outlier categories used in the outlier explorer.
-
-The application reads the processed tables rather than recalculating the full preprocessing pipeline at runtime.
-
-Application Structure
-
-1. League Overview
-
-Compares leagues and seasons using measures such as:
-
-lead protection;
-
-comeback ability;
-
-match volatility;
-
-scoring;
-
-halftime-to-full-time outcome transitions.
-
-The page combines KPI cards, temporal trends, league rankings, transition views, filters, and coordinated analytical focus.
-
-2. Team Explorer
-
-Allows the viewer to select a league and club and investigate:
-
-long-term performance across seasons;
-
-comparison with the league benchmark;
-
-lead-protection and comeback behavior;
-
-home-versus-away differences;
-
-team position relative to league peers.
-
-3. Match Cases
-
-Moves from aggregate patterns to individual match evidence.
-
-The page contains two analytical views:
-
-Turning-point cases — comeback wins, recovery draws, draw breakthroughs, and lead collapses.
-
-Outlier explorer — extreme matches ranked by swing intensity, scoring, cards, and shots with few goals.
-
-Match-level KPIs and density views use unique match identifiers to avoid double-counting physical matches represented by more than one team-perspective record.
-
-Interaction Design
-
-The visualization uses interaction only where it supports an analytical task.
-
-Examples include:
-
-league and season filters;
-
-team selection;
-
-metric selectors;
-
-turning-point and outlier selectors;
-
-coordinated views;
-
-hover tooltips with exact values and match details;
-
-tabs for alternative analytical perspectives;
-
-details-on-demand through expandable tables.
-
-The goal is to preserve context while allowing the viewer to move from overview to comparison and then to individual cases.
-
-Key Terms
-
-Lead protection: percentage of halftime leads that remain wins at full time.
-
-Comeback win: a team trails at halftime but finishes as the winner.
-
-Recovery draw: a team trails at halftime but recovers to finish level.
-
-Draw breakthrough: a team is level at halftime and converts the match into a win.
-
-Lead collapse: a team leads at halftime but finishes with a loss.
-
-Match volatility: the extent to which the score or match state changes after halftime.
-
-Technologies
+Role
 
 Python
 
-Streamlit
+Application and data logic
 
 Pandas
 
+Data loading and manipulation
+
 Plotly
 
-HTML/CSS
+Interactive charts
 
-Git
+Streamlit
 
-GitHub
+Web application framework
+
+HTML / CSS
+
+Visual styling
+
+Git + GitHub
+
+Version control and project hosting
 
 Streamlit Community Cloud
 
-Project Structure
+Public deployment
+
+📁 Project Structure
 
 football-turning-points/
+│
 ├── app.py
+├── requirements.txt
+├── README.md
+│
 ├── assets/
 │   └── style.css
+│
 ├── data/
 │   ├── 01_transition_matrix_rates.csv
 │   ├── 02_league_season_metrics.csv
@@ -222,44 +299,57 @@ football-turning-points/
 │   ├── 07_opponent_transition_rates.csv
 │   ├── 08_team_transition_cases.csv
 │   └── 09_match_outlier_cases.csv
+│
 ├── pages/
 │   ├── 1_League_Overview.py
 │   ├── 2_Team_Explorer.py
 │   └── 3_Match_Cases.py
-├── utils/
-│   ├── __init__.py
-│   └── data_loader.py
-├── requirements.txt
-└── README.md
+│
+└── utils/
+    ├── __init__.py
+    └── data_loader.py
 
-Run Locally
+▶️ Run Locally
 
-Create a virtual environment:
+1. Clone the repository
+
+git clone https://github.com/mohamd-mh/football-turning-points.git
+cd football-turning-points
+
+2. Create a virtual environment
 
 python -m venv .venv
 
-Windows PowerShell
-
-.\.venv\Scripts\Activate.ps1
+3. Activate it
 
 Git Bash
 
 source .venv/Scripts/activate
 
-Install dependencies:
+Windows PowerShell
+
+.\.venv\Scripts\Activate.ps1
+
+4. Install dependencies
 
 python -m pip install -r requirements.txt
 
-Run the application:
+5. Start the application
 
 python -m streamlit run app.py
 
-Then open the local Streamlit URL shown in the terminal.
+🌐 Live Deployment
 
-Deployment
+The application is publicly available here:
 
-The public application is deployed with Streamlit Community Cloud from the GitHub repository.
+👉 football-turning-points.streamlit.app
 
-Purpose
+The hosted version is deployed from the GitHub repository using Streamlit Community Cloud.
 
-The project turns thousands of match records into an interactive analytical workflow. Instead of manually searching rows, the viewer can compare leagues, identify long-term patterns, benchmark clubs, investigate venue effects, and trace unusual aggregate behavior back to the individual matches that produced it.
+<div align="center">
+
+Football Turning Points
+
+From halftime state → to full-time outcome → to the match behind the pattern.
+
+</div>
