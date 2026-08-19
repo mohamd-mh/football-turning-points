@@ -1,6 +1,6 @@
 Football Turning Points
 
-Interactive football visualization project analyzing how matches change between halftime and full time across Europe’s five major leagues from 2015/16 through 2024/25.
+Interactive football visualization project analyzing how matches change between halftime and full time across Europe’s five major football leagues from 2015/16 through 2024/25.
 
 Live Application
 
@@ -26,7 +26,7 @@ Dataset at a Glance
 
 Seasons covered: 2015/16–2024/25
 
-Leagues:
+Leagues
 
 English Premier League
 
@@ -84,7 +84,9 @@ Match-level outlier rankings
 
 Preprocessing
 
-The original match data was transformed into analysis-ready tables before being loaded by the web application. The preprocessing stage included:
+The original match data was transformed into analysis-ready tables before being loaded by the web application.
+
+The preprocessing stage included:
 
 combining match records across leagues and seasons;
 
@@ -102,7 +104,7 @@ preparing unique-match identifiers so match-level statistics are not double-coun
 
 preparing match-level outlier categories used in the outlier explorer.
 
-The application itself reads the processed tables rather than recalculating the full preprocessing pipeline at runtime.
+The application reads the processed tables rather than recalculating the full preprocessing pipeline at runtime.
 
 Application Structure
 
@@ -150,7 +152,9 @@ Match-level KPIs and density views use unique match identifiers to avoid double-
 
 Interaction Design
 
-The visualization uses interaction only where it supports an analytical task. Examples include:
+The visualization uses interaction only where it supports an analytical task.
+
+Examples include:
 
 league and season filters;
 
@@ -229,6 +233,8 @@ football-turning-points/
 └── README.md
 
 Run Locally
+
+Create a virtual environment:
 
 python -m venv .venv
 
